@@ -57,6 +57,7 @@ header{
   text-decoration-color: #FFFFFF;
 }
 .logotip{
+  z-index: 2;
   margin-top: 12px;
   position: absolute;
   margin-left: 3.8%;
@@ -88,7 +89,7 @@ header{
 }
 .prelast{
   text-align: right;
-  width: 100%;
+  width: 10%;
   padding-top: 29px;
   text-transform: uppercase;
   color:#FFFFFF;
@@ -97,6 +98,7 @@ header{
   font-size: 16px;
   text-decoration: none;
   color:#FFFFFF;
+  margin-left: 60%;
   margin-right: 1%;
 }
 
@@ -221,20 +223,20 @@ header{
 }
 .stetoscope{
 position: absolute;
-width: 17%;
-left: 82%;
+width: 12%;
+left: 87%;
 top: 190%;
 }
 .stetoscop{
   z-index: 0;
   position: absolute;
-  width: 18%;
+  width: 12%;
 }
 
 
 .three{
   left: 0%;
-  top: 305%;
+  top: 250%;
 }
 .choose{
   margin-top: 5%;
