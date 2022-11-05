@@ -115,12 +115,13 @@ header{
 
 .banner{
   font-family: 'Roboto' ;
+  background-size: 100%;
   font-weight: 700;
   display: inline-block;
   background-image: url(../main_page/assets/bg.jpg);
   margin-top: 0;
+  min-height:600px;
   width: 100%;
-  height: 700px;
 }
 
 .TEXT{
@@ -128,9 +129,9 @@ header{
   position: absolute;
   margin-top: 0;
   text-transform: uppercase;
-  color: #FFFFFF;
-  padding-top: 380px;
-  margin-left: 16px;
+  color: #faeded;
+  padding-top: 17%;
+  margin-left: 2%;
   font-size: 79.5px;
   line-height: 68.87px;
   Width: 500.31px;
@@ -144,7 +145,7 @@ header{
   height: 350px;
   margin-left: calc(850px - 465px/2 - 501.5px);
   border-radius: 50%;
-  margin-top: 296px;
+  margin-top: 13%;
   margin-bottom: 0;
   background: linear-gradient(113.96deg, #d31414 1.49%, #f73d30 101.44%);
 }
