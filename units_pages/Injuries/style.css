@@ -201,7 +201,9 @@ li{
   text-transform: uppercase;
   color: #FFFFFF;
 }
-
+.good{
+  width: 50%;
+}
 .list_levels{
   display: grid;
   margin-left: 13%;
