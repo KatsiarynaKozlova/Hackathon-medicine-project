@@ -13,16 +13,17 @@ const flipCard=e=>{
    if (!hasFlippedCard){
     fCard = target;
     hasFlippedCard=true;
-   }else { 
+   }else {
         if ( target === fCard) return;
         sCard = target;
+        hasFlippedCard=false;
         checkForMatch();
-   }
-   if ( count === 8){
-    setTimeout(()=>{
-        alert('Уровень пройден! ');
-    },1000);
-   }
+    } 
+    if ( count === 8){
+        setTimeout(()=>{
+             alert("Уровень пройден!")
+        },1000);
+    }
 };
 
 
@@ -31,13 +32,12 @@ const checkForMatch= () =>{
         count++;
         fCard.removeEventListener("click",flipCard);
         sCard.removeEventListener("click",flipCard);
-        [hasFlippedCard,boardLocked]=[false,false];
+        console.log('equal!!');
     }else{ 
         boardLocked=true;
         setTimeout(()=>{
         fCard.classList.remove("flip");
         sCard.classList.remove("flip");
-        
         [hasFlippedCard,boardLocked]=[false,false];
         [fCard,sCard]=[null,null];
     },1000);
